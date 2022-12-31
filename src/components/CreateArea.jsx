@@ -1,17 +1,7 @@
-// const express=require("express");
-// const bodyParser = require("body-parser");
-// const mongoose = require("mongoose");
-// const app = express();
-// app.use(bodyParser.urlencoded({extended: true}));
-// mongoose.connect("mongodb://localhost:27017/todolistDB",{useNewUrlParser:true});
-
 import React, { useState } from "react";
 import AddIcon from "@mui/icons-material/Add";
 import Fab from "@mui/material/Fab";
 import Zoom from "@mui/material/Zoom";
-// import mongoose from 'mongoose';
-
-// mongoose.connect("mongodb://localhost:27017/keeperDB",{useNewUrlParser:true});
 
 function CreateArea(props) {
   const [isExpanded, setExpanded] = useState(false);
